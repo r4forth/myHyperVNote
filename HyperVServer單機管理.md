@@ -79,6 +79,20 @@ Get-WindowsFeature
 5. 兩邊主機都要設定相同的管理者帳號
 6. 使用 Hyper-V Manager 遠端管理工具
 
-## 
+## 設定 Anonymous Logon 具備遠端存取權限
+
+```
+dcomcnfg
+```
+
+步驟待補
+
+## 將 Hyper-V 加入為信任主機
+
+1. 本機中執行 powershell
+
+```
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value DELLSR01 -Concatenate
+```
 
 
