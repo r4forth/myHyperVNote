@@ -28,3 +28,8 @@ Sysprep /generalize /shutdown /oobe
 # WinPE 使用教學
 
 # Diskpart 指令整理
+
+
+# Office365 設定檔組態程式
+
+[官網連結](https://config.office.com/deploymentsettings)
